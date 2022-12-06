@@ -1,12 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-/* 
+body {
+    font-size: 62.5%;
+    background: black;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.tempStruture {
+    width: 100vw;
+    height: 150%;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    padding: 1%;
+}
 
-*/
+.numberSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numDiv {
+    background: rgb(29, 28, 28);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: white;
+}
+
+.iconDetails {
+    width: 60%;
+    height: 60%;
+    color: white;
+}
+
+.btnSection {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 20px;
+}
+
+.btn {
+    width: 120px;
+    height: 60px;
+    font-size: 1.2rem;
+    background-color: rgb(255, 251, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 40px;
+}
+
+.redBtn {
+    background-color: red;
+}
+
+@media (max-width: 600px) {
+
+    .tempStruture {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+        padding-top: 10%;
+    }
+
+    .first {
+        width: 80px;
+    }
+    
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth,
+    .seventh {
+        width: 50px;
+    }
+
+    .numDiv {
+        height: 80px;
+        margin: 10% 0%;
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 600px) {
+
+    .tempStruture {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first {
+        width: 120px;
+    }
+    
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth,
+    .seventh {
+        width: 80px;
+    }
+
+    .numDiv {
+        height: 150px;
+        margin: 8% 0%;
+    }
+
+}
+
+@media (min-width: 1100px) {
+
+    .first {
+        width: 200px;
+    }
+    
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth,
+    .seventh {
+        width: 150px;
+    }
+
+    .numDiv {
+        height: 210px;
+    }
+}
