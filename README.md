@@ -1,41 +1,9 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+Simple counter application that I created using HTML, CSS, JavaScript, and React. The counter allowed users to start counting up from a specified number, pause the counting, continue counting from where they left off, and reset the counter to its initial value.
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+To create this counter, I first designed the layout and styling of the application using HTML and CSS. I then used React to create the logic and functionality of the counter, including defining the initial value of the counter and implementing the start, pause, continue, and reset features.
 
-##### Download the boilerplate using git
+Using JavaScript, I created event listeners that allowed users to interact with the counter by clicking on buttons that controlled the different functionalities.
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
 
-##### and install the npm package:
-```
-$ npm install
-```
+https://user-images.githubusercontent.com/103970504/227221046-e8a397dc-d848-4b0b-915b-0963f8ddb4d4.mp4
 
-## Start coding!
-
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
-
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
-
-## Publish your website!
-
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
